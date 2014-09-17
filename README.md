@@ -1,4 +1,5 @@
 FirstRepository
 ===============
 
-My first repository on GitHub
+
+I have just created a GitHub and this is my first repository.
