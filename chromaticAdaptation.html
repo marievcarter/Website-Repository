@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Marie Carter | Chromatic Adaptation</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <!--ADD IN JQUERY-->
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="actions.js"></script>
+</head>
+    
+<body>
+    <span class="placeHolder"></span>
+    <section class="fixedNav">
+    <h1 class="desTitle">Chromatic Adaptation</h1>
+    <hr/>
+        
+    <!-- NAVIGATION BAR -->
+    <section id="all">
+        <span><a href="home.html">Home</a></span>
+        <span><a href="projects.html">Projects</a></span>
+        <span><a href="sketches.html">Sketches</a></span>
+        <span><a href="contact.html">Contact</a></span>
+    </section>
+    </section>
+
+    <section class="homeContent">
+        <p>[DESCRIPTION - WHAT IS CHROMATIC ADAPTATION AND BACKGROUND] This little MATLAB tutorial explains and models chromatic adaptation with a demonstration. Chromatic adaptation is the phenonenon by which....... The adaptor in this case is a rectangle made of two distinct sides of highy saturated opponent colors with a black dot in the middle. Introduce the concept of LMS and how it relates to cone length/color. Can you beat the illusion?...</p>
+        <figure id="fullImage">
+            <img src="#"/>
+            <figcaption>[Example found on internet] Directions: Stare at the black dot in the middle of the adaptor for about 30 seconds. Then look at the black dot in the middle of the airplane image. If your eyes have adjusted enough to the adaptor, you should be able to view the airplane image as if there were no two-colored filter applied to it.</figcaption>
+        </figure>
+        <p>INTRODUCTION TO OPPONENT THEORY What is opponent theory and what is the proposed cone mechanism?</p>
+        <figure id="fullImage">
+            <img src="projects/chromaticAdapt/randomActivation.png"/>
+            <figcaption>Assign random cone activation levels in an arbitrary range [-1500,1500].</figcaption>
+        </figure>
+        <figure id="fullImage">
+            <img src="projects/chromaticAdapt/coneActivation.png"/>
+            <figcaption>Simulated Blue-Yellow Cone Activation</figcaption>
+        </figure>
+        <figure id="fullImage">
+            <img src="projects/chromaticAdapt/RGcones.png"/>
+            <figcaption>Simulated Red-Green Cone Activation</figcaption>
+        </figure>
+        <figure id="fullImage">
+            <img src="projects/chromaticAdapt/BYcones.png"/>
+            <figcaption>Simulated Blue-Yellow Cone Activation</figcaption>
+        </figure>
+        <p>[PUT THESE TWO IMAGES SIDE BY SIDE] [WHY ARE THERE TWO SETS OF BLUE-YELLOW CONE ACTIVATIONS?] These randomly generated cone activations show a theoretical starting point before saturation by adaptor</p>
+        <figure id="fullImage">
+            <img src="projects/chromaticAdapt/adaptBlue.png"/>
+            <figcaption>Adapt Blue Cones</figcaption>
+        </figure>
+        <figure id="fullImage">
+            <img src="projects/chromaticAdapt/adaptRed.png"/>
+            <figcaption>Adapt Red Cones</figcaption>
+        </figure>
+        <p>[PUT IMAGES SIDE BY SIDE] Adapting to blue affects X cones. Adapting to yellow affects X cones. Here I applied a ........ to simulate selective cone fatigue in response to the adaptor</p>
+        <figure id="fullImage">
+                <img src="projects/chromaticAdapt/adaptedRG.png"/>
+                <figcaption>Adapted Red-Green Cones</figcaption>
+        </figure>
+        <figure id="fullImage">
+                <img src="projects/chromaticAdapt/adaptedBY.png"/>
+                <figcaption>Adapted Blue-Yellow Cones</figcaption>
+        </figure>
+        <figure id="fullImage">
+                <img src="projects/chromaticAdapt/calc.png"/>
+                <figcaption>Calculate Resulting Activation</figcaption>
+        </figure>
+        <p>[MAKING A FILTERED IMAGE]</p>
+        <figure id="fullImage">
+                <img src="projects/chromaticAdapt/addFilter.png"/>
+                <figcaption>Add Filter</figcaption>
+        </figure>
+        <figure id="fullImage">
+                <img src="projects/chromaticAdapt/originalLandscape.jpg"/>
+                <figcaption>Original Landscape - No Filter</figcaption>
+        </figure>
+        <figure id="fullImage">
+                <img src="projects/chromaticAdapt/landscape.png"/>
+                <figcaption>Very Low Saturation Filter</figcaption>
+        </figure>
+        <figure id="fullImage">
+                <img src="projects/chromaticAdapt/landscapeFilterHigh.png"/>
+                <figcaption>High Saturation Filter</figcaption>
+        </figure>
+        <p>[PUT THESE TWO IMAGES SIDE BY SIDE] With images made, we'll pick the middle one to try the illusion on. Stare at the dot on the adaptor for about 30 seconds, then look at the dot on the filtered image.</p>
+        <figure id="fullImage">
+                <img src="projects/chromaticAdapt/adaptor.png"/>
+                <figcaption>Adaptor</figcaption>
+        </figure>
+        <figure id="fullImage">
+                <img src="projects/chromaticAdapt/landscapeFilterLow.png"/>
+                <figcaption>Low Saturation Filter</figcaption>
+        </figure>
+    </section>
+
+    </body>
+</html>
