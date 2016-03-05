@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One); /* title font */
+
+/* landing page background */
+#frontImage {
+    background: url(images/backgrounds/starShape.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: white;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 60vw;
+  max-width: 150px;
+  margin: 0 auto;
+  min-height: 100vh;
+  text-decoration: none;
+  background-color: rgba(0,0,0,0);
+}
+.button {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+    font-weight: normal;
+    position: relative;
+    vertical-align: middle;
+}
+.button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
