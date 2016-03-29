@@ -21,50 +21,36 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage">PORTFOLIO</a>
+      <a class="navbar-brand" href="index.html">PORTFOLIO</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#sketches">SKETCHES</a></li>
-        <li><a href="#projects">PROJECTS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="html/about.html">ABOUT</a></li>
+        <li><a href="html/sketches.html">SKETCHES</a></li>
+        <li><a href="html/projects.html">PROJECTS</a></li>
         <li><a href="html/contact.html">CONTACT</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="jumbotron text-center">
+<div class="jumbotron text-center indexTitle">
     <h1>Marie Carter</h1> 
     <p>Welcome to my page :)</p>
     <!--HOW TO WELCOME VISITORS?-->
 </div>
 
 <!--About me section-->
-<div id="about" class="container-fluid">
+<div class="container-fluid">
     <div class="row">
         <div class="col-sm-4">
             <span class="glyphicon glyphicon-user logo"></span>
         </div>
         <div class="col-sm-8">
-            <h2>[EMPTY USABLE SECTION]</h2>
-            <h4>[MORE INFO]</h4>
-        </div>
-    </div>
-</div>
-
-<!--Second section for something else-->
-<div class="container-fluid bg-gray">
-    <div class="row">
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-ice-lolly-tasted logo"></span>
-        </div>
-        <div class="col-sm-8">
             <h2>Hi, I'm Marie</h2>
             <br/>
             <!--ADD IMAGE FOR ABOUT ME-->
-            <img class="center-block img-responsive" src="#" title="this is me" alt="this is me">
+            <img class="img-responsive" src="http://placehold.it/250x250" title="this is me" alt="this is me">
             <h4>[MORE INFO:]</h4>
             <p>[Add info here]</p>
             <button type="button" class="btn btn-primary-outline"><a href="#">about me</a></button>
@@ -72,7 +58,36 @@
     </div>
 </div>
 
-<div id="sketches" class="container-fluid text-center">
+<div class="container-fluid text-center bg-gray">
+    <h2>Projects</h2>
+    <h4>A selection of works</h4>
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <a href=""><img src="img/chrom/adaptor.png" alt="blue/yellow visual illusion"></a>
+                <p><strong>Chromatic Adaptation</strong></p>
+                <p>[Description of project]</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <a href=""><img src="img/openGeometric.png" alt="geometric shape"></a>
+                <p><strong>Storybooks</strong></p>
+                <p>[Description of project]</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <a href="#"><img src="img/neg45adaptor.png" alt="color wheel"></a>
+                <p><strong>Independent Study</strong></p>
+                <p>[Description of project]</p>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary-outline"><a href="html/projects.html">all projects</a></button>
+</div>
+
+<div class="container-fluid text-center">
     <h2>Sketches</h2>
     <div id="sketchCarousel" class="carousel slide text-center" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -101,37 +116,6 @@
     </a>
     </div>
     <button type="button" class="btn btn-primary-outline"><a href="html/sketches.html">more sketches</a></button>
-</div>
-
-<div id="projects" class="container-fluid text-center bg-gray">
-    <h2>Projects</h2>
-    <h4>A selection of works</h4>
-    <div class="row text-center">
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <a href=""><img src="img/chrom/adaptor.png" alt="blue/yellow visual illusion"></a>
-                <p><strong>Chromatic Adaptation</strong></p>
-                <p>[Description of project]</p>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <a href=""><img src="img/openGeometric.png" alt="geometric shape"></a>
-                <p><strong>Storybooks</strong></p>
-                <p>[Description of project]</p>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <a href="#"><img src="img/neg45adaptor.png" alt="color wheel"></a>
-                <p><strong>Independent Study</strong></p>
-                <p>[Description of project]</p>
-            </div>
-        </div>
-    </div>
-    <!--Add a link to the full project directory-->
-    <!--[button], [centered], [name: project directory], [color: blue]-->
-    <button type="button" class="btn btn-primary-outline"><a href="html/projects.html">all projects</a></button>
 </div>
 
 <footer class="container-fluid text-center bg-gray">
