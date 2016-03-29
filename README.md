@@ -1,11 +1,18 @@
 Website-Repository
 ===============
 
-'''March 2016'''
-Adding Twitter Bootstrap (completely redoing website)
+####March 2016
 
-'''February 2016'''
-Some experimentation without libraries
+-Adding Twitter Bootstrap (completely redoing website)
 
-'''Jan 2016'''
+-Maroon colored theme  
+
+####February 2016
+
+-Some experimentation without libraries
+
+-Geometric theme  
+
+####Jan 2016
+
 This repository is for the website marievcarter.com. 
