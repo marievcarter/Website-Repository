@@ -2,100 +2,174 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Marie Carter | Chromatic Adaptation</title>
-    <link rel="stylesheet" type="text/css" href="home.css">
-    <!--ADD IN JQUERY-->
-    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="actions.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/chrom.css">
 </head>
     
 <body>
-    <span class="placeHolder"></span>
-    <section class="fixedNav">
-    <h1 class="desTitle">Chromatic Adaptation</h1>
-    <hr/>
+    <div class="jumbotron text-center">
+        <h1 class="pageTitle">Chromatic Adaptation</h1>
+    </div>
         
     <!-- NAVIGATION BAR -->
-    <section id="all">
-        <span><a href="home.html">Home</a></span>
-        <span><a href="projects.html">Projects</a></span>
-        <span><a href="sketches.html">Sketches</a></span>
-        <span><a href="contact.html">Contact</a></span>
-    </section>
-    </section>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="../index.html">PORTFOLIO</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="sketches.html">SKETCHES</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <section class="homeContent">
-        <p>[DESCRIPTION - WHAT IS CHROMATIC ADAPTATION AND BACKGROUND] This little MATLAB tutorial explains and models chromatic adaptation with a demonstration. Chromatic adaptation is the phenonenon by which....... The adaptor in this case is a rectangle made of two distinct sides of highy saturated opponent colors with a black dot in the middle. Introduce the concept of LMS and how it relates to cone length/color. Can you beat the illusion?...</p>
-        <figure id="fullImage">
-            <img src="#"/>
-            <figcaption>[Example found on internet] Directions: Stare at the black dot in the middle of the adaptor for about 30 seconds. Then look at the black dot in the middle of the airplane image. If your eyes have adjusted enough to the adaptor, you should be able to view the airplane image as if there were no two-colored filter applied to it.</figcaption>
-        </figure>
-        <p>INTRODUCTION TO OPPONENT THEORY What is opponent theory and what is the proposed cone mechanism?</p>
-        <figure id="fullImage">
-            <img src="projects/chromaticAdapt/randomActivation.png"/>
-            <figcaption>Assign random cone activation levels in an arbitrary range [-1500,1500].</figcaption>
-        </figure>
-        <figure id="fullImage">
-            <img src="projects/chromaticAdapt/coneActivation.png"/>
-            <figcaption>Simulated Blue-Yellow Cone Activation</figcaption>
-        </figure>
-        <figure id="fullImage">
-            <img src="projects/chromaticAdapt/RGcones.png"/>
+<div class="container-fluid center-block">
+    <div class="row">
+        <div class="col-sm-6">
+            <h4>INTRODUCTION</h4>
+            <p>Chromatic adaptation is a well documented phenomenon in color perception in which staring at a certain color for a period of time affects the way that and other colors are seen subsequently. Specifically, detection of that same color seems diminished while detection of the opposing color is increased. While the mechanism underlying this effect is not fully understood, this little MATLAB tutorial will try to explain and model it simply. 
+            </p>
+        </div>
+
+        <div class="col-sm-6">
+            <h4>OPPONENT COLOR THEORY</h4>
+            <p>Color opponency is a theory that describes a mechanism having to do with color that operates above the level of cones. To review, there are three cone types in the retina of your eye that respond to color: S (short), M (medium) and L (long). Each of these has a frequency range in which the the cone responds which together make up the visible spectrum. According to color opponent theory, some cells respond most to red, green, blue, or yellow.
+            </p>
+        </div>
+    </div>
+</div>
+        
+<div class="container-fluid text-center" style="background-color: #F7F7F7;">
+    <h4>SETTING UP THE MODEL</h4>
+    <figure>
+        <img class="img-responsive center-block" src="../img/projects/chrom/randomActivation.png"/>                
+        <figcaption>Assign random cone activation levels in an arbitrary range [-1500,1500].</figcaption>
+    </figure>
+    <br/>
+    <figure>
+        <img class="img-responsive center-block" src="../img/projects/chrom/coneActivation.png"/>
+        <figcaption>Simulated Blue-Yellow Cone Activation</figcaption>
+    </figure>
+    <br/>
+</div>
+
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-sm-6">
+            <figure>
+            <img class="img-responsive" src="../img/projects/chrom/RGcones.png"/>
             <figcaption>Simulated Red-Green Cone Activation</figcaption>
-        </figure>
-        <figure id="fullImage">
-            <img src="projects/chromaticAdapt/BYcones.png"/>
-            <figcaption>Simulated Blue-Yellow Cone Activation</figcaption>
-        </figure>
-        <p>[PUT THESE TWO IMAGES SIDE BY SIDE] [WHY ARE THERE TWO SETS OF BLUE-YELLOW CONE ACTIVATIONS?] These randomly generated cone activations show a theoretical starting point before saturation by adaptor</p>
-        <figure id="fullImage">
-            <img src="projects/chromaticAdapt/adaptBlue.png"/>
+            </figure>
+        </div>
+        <div class="col-sm-6">
+            <figure>
+                <img class="img-responsive" src="../img/projects/chrom/BYcones.png"/>
+                <figcaption>Simulated Blue-Yellow Cone Activation</figcaption>
+                </figure>
+        </div>
+    </div>
+        <p> These randomly generated cone activations show a theoretical starting point before saturation by adaptor</p>
+</div>
+
+    <div class="container-fluid text-center" style="background-color: #F7F7F7;">
+    <h4>SIMULATE CONE ADAPTATION</h4>
+        <figure>
+            <img class="img-responsive center-block" src="../img/projects/chrom/adaptBlue.png"/>
             <figcaption>Adapt Blue Cones</figcaption>
         </figure>
-        <figure id="fullImage">
-            <img src="projects/chromaticAdapt/adaptRed.png"/>
+        <figure>
+            <img class="img-responsive center-block" src="../img/projects/chrom/adaptRed.png"/>
             <figcaption>Adapt Red Cones</figcaption>
         </figure>
-        <p>[PUT IMAGES SIDE BY SIDE] Adapting to blue affects X cones. Adapting to yellow affects X cones. Here I applied a ........ to simulate selective cone fatigue in response to the adaptor</p>
-        <figure id="fullImage">
-                <img src="projects/chromaticAdapt/adaptedRG.png"/>
-                <figcaption>Adapted Red-Green Cones</figcaption>
-        </figure>
-        <figure id="fullImage">
-                <img src="projects/chromaticAdapt/adaptedBY.png"/>
-                <figcaption>Adapted Blue-Yellow Cones</figcaption>
-        </figure>
-        <figure id="fullImage">
-                <img src="projects/chromaticAdapt/calc.png"/>
-                <figcaption>Calculate Resulting Activation</figcaption>
-        </figure>
-        <p>[MAKING A FILTERED IMAGE]</p>
-        <figure id="fullImage">
-                <img src="projects/chromaticAdapt/addFilter.png"/>
-                <figcaption>Add Filter</figcaption>
-        </figure>
-        <figure id="fullImage">
-                <img src="projects/chromaticAdapt/originalLandscape.jpg"/>
-                <figcaption>Original Landscape - No Filter</figcaption>
-        </figure>
-        <figure id="fullImage">
-                <img src="projects/chromaticAdapt/landscape.png"/>
-                <figcaption>Very Low Saturation Filter</figcaption>
-        </figure>
-        <figure id="fullImage">
-                <img src="projects/chromaticAdapt/landscapeFilterHigh.png"/>
-                <figcaption>High Saturation Filter</figcaption>
-        </figure>
-        <p>[PUT THESE TWO IMAGES SIDE BY SIDE] With images made, we'll pick the middle one to try the illusion on. Stare at the dot on the adaptor for about 30 seconds, then look at the dot on the filtered image.</p>
-        <figure id="fullImage">
-                <img src="projects/chromaticAdapt/adaptor.png"/>
-                <figcaption>Adaptor</figcaption>
-        </figure>
-        <figure id="fullImage">
-                <img src="projects/chromaticAdapt/landscapeFilterLow.png"/>
-                <figcaption>Low Saturation Filter</figcaption>
-        </figure>
-    </section>
+        <p>Adapting to blue affects X cones. Adapting to yellow affects X cones. Here I applied a ........ to simulate selective cone fatigue in response to the adaptor</p>
+    </div>
 
-    </body>
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-sm-6 block3">
+            <figure>
+                <img class="img-responsive" src="../img/projects/chrom/adaptedRG.png"/>
+                <figcaption>Adapted Red-Green Cones</figcaption>
+            </figure>
+        </div>
+        <div class="col-sm-6 block4">
+            <figure>
+                <img class="img-responsive" src="../img/projects/chrom/adaptedBY.png"/>
+                <figcaption>Adapted Blue-Yellow Cones</figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid text-center" style="background-color: #F7F7F7;">
+    <figure>
+        <img class="img-responsive center-block" src="../img/projects/chrom/calc.png"/>
+        <figcaption>Calculate Resulting Activation</figcaption>
+    </figure>
+    <br/>
+        <h4>MAKING THE IMAGE</h4>
+    <figure>
+        <img class="img-responsive center-block" src="../img/projects/chrom/addFilter.png"/>
+        <figcaption>Add Filter</figcaption>
+    </figure>
+</div>
+
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-sm-6 block3">
+            <figure>
+                <img class="img-responsive" src="../img/projects/chrom/originalLandscape.jpg"/>
+                <figcaption>Original Landscape - No Filter</figcaption>
+            </figure>
+        </div>
+        <div class="col-sm-6 block4">
+            <figure>
+                <img class="img-responsive" src="../img/projects/chrom/filterLow.png"/>
+                <figcaption>Very Low Saturation Filter</figcaption>
+            </figure>
+            <figure>
+                <img class="img-responsive" src="../img/projects/chrom/filterMedium.png"/>
+                <figcaption>Low Saturation Filter</figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid text-center" style="background-color: #F7F7F7;">
+    <p class="center-block">Now that we have filtered images of varying saturation, it's time to try the illusion on them. While this can be done with any of three filtered images, we're going to try with the medium filter image (which tends to have the best results). Stare at the black dot in the middle of the adaptor for about 30 seconds, then click on the image to see the filtered image. Be sure to stare in the middle of the filtered image, as the periphery of the image will be more affected than the middle.</p>
+</div>
+
+<div class="container-fluid text-center">
+    <figure>
+       <div class="card effect__click">
+            <div class="card__front">
+                <img class="img-responsive center-block" src="../img/projects/chrom/adaptor.png">
+            </div>
+        <div class="card__back">
+                <img class="img-responsive center-block" src="../img/projects/chrom/filterMedium.png">
+        </div>
+        </div><!-- /card -->
+        <figcaption>Adaptor<br/>(click to flip)</figcaption>
+    </figure>
+</div>
+        <script src="../js/cardFlip.js"></script>
+</body>
 </html>
