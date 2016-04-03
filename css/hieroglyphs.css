@@ -1,23 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Marcellus+SC);
 
-html {
-    background-color: #eaeffa;
-}
-body {
-    background-color: #f9ebf2;
-}
 h1 {
   font-family: 'Marcellus SC', serif;
   font-size: 50px;
 }
 img {
-    width: 100px;
-    height: 100px;
-    margin-right: 2px;
-    margin-bottom: 2px;
+    width: 90px;
+    height: 90px;
+    margin: 2px;
+}
+img:hover {
+  cursor: pointer;
 }
 .container-fluid {
   background-color: rgba(0,0,0,0); 
+  padding: 0px;
 }
 .largeImg {
     width: 75%;
@@ -26,13 +23,11 @@ img {
 .card {
   position: relative;
   float: left;
-  text-align: center;
 }
 .card:nth-child(1) {
   margin-left: -3px;
   margin-right: 1px;
 }
-
 .card:nth-child(2),
 .card:nth-child(3) {
   margin-right: 1px;
@@ -68,4 +63,22 @@ img {
 .card.effect__click.flipped .card__back {
   -webkit-transform: rotateY(0);
           transform: rotateY(0);
+}
+.tier1 {
+  width: 188px;
+}
+.tier2 {
+  width: 376px;
+}
+.tier3 {
+  width: 658px;
+}
+.tier4 {
+  width: 940px;
+}
+.tier1,.tier2, .tier3, .tier4 {
+  padding: 0px;
+} 
+.tier1 img,.tier2 img, .tier3 img, .tier4 img {
+  display: inline;
 }
