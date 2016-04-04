@@ -14,6 +14,10 @@
 
 -Recreate experiment visual for ind.study page in sketch
 
+-Make second "page" for frontpage
+
+-Come up with consistent description box: structure & color(s)
+
 ###FINISHED
 
 <s> -Add navbar to projects.html </s>
