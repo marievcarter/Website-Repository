@@ -12,6 +12,16 @@
 
 -Figure out how to add the smaller front page image to mobile instead of giant one
 
+-Add shadow to thumbnails on project page so they look three dimensional
+
+-Add independent study thesis pdf as writing sample, make it private
+
+-Make the whole ind.study page private/password protected just in case
+
+-Recreate experiment visual for ind.study page in sketch
+
+-Fix layout on Contact page
+
 ###FINISHED
 
 <s> -Add navbar to projects.html </s>
