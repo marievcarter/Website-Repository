@@ -81,6 +81,7 @@
 .jumbotron {
   background-color: rgba(0,0,0,0);
   margin: 0;
+  padding-bottom: 50px;
 }
 .pageTitle {
   font-family: 'Poiret One', cursive;
@@ -114,6 +115,7 @@
   background-color: #85144b; /* maroon */
   color: #E6E6E6;
   padding: 100px 25px;
+  font-family: 'Poiret One', cursive;
 }
 .bg-gray {
   background-color: #f6f6f6;
@@ -124,7 +126,7 @@
 .logo {
   font-size: 100px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .col-sm-4 {
     text-align: center;
     margin: 25px 0;
@@ -136,8 +138,8 @@
   border-radius: 0;
 }
 .thumbnail img {
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
   margin-bottom: 10px;
 }
 .container {
@@ -145,6 +147,15 @@
 }
 #projects {
   width: 65%;
+}
+#projects img {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#projects a, #projects a:hover {
+  text-decoration: none;
+  color: #000;
 }
 .volunteerPics img {
     display: block;
@@ -163,7 +174,18 @@
 .carousel-indicators li.active {
   background-color: #85144b;
 }
+div #sketchCarousel {
+  width: 65%;
+}
 .item img {
   padding: 10 10 10 10;
   max-height: 600px;
+}
+.cover {
+  padding: 0;
+  max-width: 100%;
+}
+footer.container-fluid {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
