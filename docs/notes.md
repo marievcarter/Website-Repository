@@ -2,25 +2,17 @@
 
 -Add explanations to chromaticAdaptation.html
 
--Compose new icons for links on the 'project' page and 'Madrid teaching stuff' page (this name may change)
-
--There are too many sub-pages, make the teaching projects page into scrolled series
-
 -Add short explanation to the hieroglyhs page
 
 -Write the content for 'independent study' page
 
 -Figure out how to add the smaller front page image to mobile instead of giant one
 
--Add shadow to thumbnails on project page so they look three dimensional
-
--Add independent study thesis pdf as writing sample, make it private
+-Add independent study thesis pdf as writing sample?
 
 -Make the whole ind.study page private/password protected just in case
 
 -Recreate experiment visual for ind.study page in sketch
-
--Fix layout on Contact page
 
 ###FINISHED
 
@@ -39,3 +31,11 @@
 <s> -Finish arranging chromaticAdaptation.html content </s> ... (Layout is good so far)
 
 <s> -Make a favicon - use the geometric shape from old website version </s> ... (This was easier than expected and it looks good!)
+
+<s> -Compose new icons for links on the 'project' page and 'Madrid teaching stuff' page (this name may change) </s> ... (Done for the projects I've decided to keep)
+
+<s> -There are too many sub-pages, make the teaching projects page into scrolled series </s> ... (Format pending)
+
+<s> -Fix layout on Contact page </s>
+
+<s> -Add shadow to thumbnails on project page so they look three dimensional </s>
