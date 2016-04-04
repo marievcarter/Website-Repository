@@ -20,10 +20,10 @@
 
 <s> -Add bootstrap to projects.html content </s>
 
-<s> -Find illusion example for chromaticAdaptation.html </s> (Better to not have this and wait till end of page to see finished product)
+<s> -Find illusion example for chromaticAdaptation.html </s> ... (Better to not have this and wait till end of page to see finished product)
 
-<s> -Finish egyptian tiles teaching project </s> (Done aside from small tweaks)
+<s> -Finish egyptian tiles teaching project </s> ... (Done aside from small tweaks)
 
-<s> -Make boldIdea project pages into a flipbook using turn.js </s> (I ended up choosing an image carousel after critique from Gabby)
+<s> -Make boldIdea project pages into a flipbook using turn.js </s> ... (I ended up choosing an image carousel after critique from Gabby)
 
-<s> -Finish arranging chromaticAdaptation.html content </s> (Layout is good so far)
+<s> -Finish arranging chromaticAdaptation.html content </s> ... (Layout is good so far)
