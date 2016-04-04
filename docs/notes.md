@@ -2,11 +2,11 @@
 
 -Add explanations to chromaticAdaptation.html
 
--Compose new icons for 'project' page and 'Madrid teaching stuff' page (this name may change)
+-Compose new icons for links on the 'project' page and 'Madrid teaching stuff' page (this name may change)
 
 -There are too many sub-pages, make the teaching projects page into scrolled series
 
--Add explanations to the hieroglyhs page
+-Add short explanation to the hieroglyhs page
 
 -Write the content for 'independent study' page
 
@@ -27,3 +27,5 @@
 <s> -Make boldIdea project pages into a flipbook using turn.js </s> ... (I ended up choosing an image carousel after critique from Gabby)
 
 <s> -Finish arranging chromaticAdaptation.html content </s> ... (Layout is good so far)
+
+<s> -Make a favicon - use the geometric shape from old website version </s> ... (This was easier than expected and it looks good!)
