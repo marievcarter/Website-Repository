@@ -6,17 +6,17 @@
 
 -Write the content for 'independent study' page
 
--Figure out how to add the smaller front page image to mobile instead of giant one
-
 -Add independent study thesis pdf as writing sample?
 
 -Make the whole ind.study page private/password protected just in case
 
 -Recreate experiment visual for ind.study page in sketch
 
--Make second "page" for frontpage
-
 -Come up with consistent description box: structure & color(s)
+
+-Change image carousel on volunteering page (for mobile) or make alternate format
+
+-Second page for sketches since there's no need to maximize the images on mobile
 
 ###FINISHED
 
@@ -43,3 +43,7 @@
 <s> -Fix layout on Contact page </s>
 
 <s> -Add shadow to thumbnails on project page so they look three dimensional </s>
+
+<s> -Make second "page" for frontpage </s>
+
+<s> -Figure out how to add the smaller front page image to mobile instead of giant one </s>
