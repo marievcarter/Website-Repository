@@ -1,4 +1,6 @@
 /**
+ * Forked from [yura](http://codepen.io/Shkraba/)'s Pen [wBMEOR](http://codepen.io/Shkraba/pen/wBMEOR/).
+ * 
  * Do the clicking stuff
  *
  */
