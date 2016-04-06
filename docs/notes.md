@@ -10,8 +10,6 @@
 
 -Make the whole ind.study page private/password protected just in case
 
--Come up with consistent description box: structure & color(s)
-
 -Change image carousel on volunteering page (for mobile) or make alternate format
 
 -Second page for sketches since there's no need to maximize the images on mobile
@@ -26,7 +24,7 @@
 
 <s> -Find illusion example for chromaticAdaptation.html </s> ... (Better to not have this and wait till end of page to see finished product)
 
-<s> -Finish egyptian tiles teaching project </s> ... (Done aside from small tweaks)
+<s> -Finish egyptian tiles teaching project </s> ... <s> (Done aside from small tweaks) </s>
 
 <s> -Make boldIdea project pages into a flipbook using turn.js </s> ... (I ended up choosing an image carousel after critique from Gabby)
 
@@ -47,3 +45,5 @@
 <s> -Figure out how to add the smaller front page image to mobile instead of giant one </s>
 
 <s> -Recreate experiment visual for ind.study page in sketch </s>
+
+<s> -Come up with consistent description box: structure & color(s) </s>
