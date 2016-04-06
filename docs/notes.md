@@ -10,8 +10,6 @@
 
 -Make the whole ind.study page private/password protected just in case
 
--Recreate experiment visual for ind.study page in sketch
-
 -Come up with consistent description box: structure & color(s)
 
 -Change image carousel on volunteering page (for mobile) or make alternate format
@@ -47,3 +45,5 @@
 <s> -Make second "page" for frontpage </s>
 
 <s> -Figure out how to add the smaller front page image to mobile instead of giant one </s>
+
+<s> -Recreate experiment visual for ind.study page in sketch </s>
