@@ -1,11 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Marcellus+SC);
 
-.hieroglyphBlock {
-  background-color: #F7F7F7;
+/* Image from unsplash.com */
+html {
+    background: url(../img/backgrounds/desertDusk.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-h1 {
+body {
+  background-color: rgba(0,0,0,0);
+}
+.hieroglyphBlock h1 {
   font-family: 'Marcellus SC', serif;
-  font-size: 50px;
+  font-size: 70px;
+  color: #F0F0F0;
 }
 img {
     width: 90px;
