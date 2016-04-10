@@ -1,0 +1,72 @@
+html {
+    background: url(../img/backgrounds/twoTone.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+footer, body {
+	background-color: rgba(0,0,0,0);
+}
+footer {
+	color: #cccccc;
+}
+.blue,.red,.yellow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    width:100%;
+    min-height: 400px;
+  }
+  .blue {
+  	background-color: rgba(179, 204, 255,.65);
+  }
+  .red {
+    background-color: rgba(241, 218, 218,.65);
+  }
+  .yellow {
+    background-color: rgba(255,247,230,.65);
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+p {
+    padding: 30px;
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    font-size: 20px;
+  }
+figcaption {
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+h3 {
+    text-align: center;
+  }
+.row {
+    max-height: 400px;
+    display: inline-block;
+  }
+.projectButton {
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    cursor: pointer;
+    background-color: #e7e7e7;
+    color: black;
+    border: 2px solid #555555;
+}
+.projectButton a {
+  color: #000;
+}
+.projectButton:hover {
+  background-color: #555555;
+    color: white;
+}
+.gray {
+  background-color: #d9d9d9;
+}
