@@ -1,15 +1,5 @@
 ###TODO
 
--Add explanations to chromaticAdaptation.html
-
--Add short explanation to the hieroglyhs page
-
--Write the content for 'independent study' page
-
--Add independent study thesis pdf as writing sample?
-
--Make the whole ind.study page private/password protected just in case
-
 -Change image carousel on volunteering page (for mobile) or make alternate format
 
 -Second page for sketches since there's no need to maximize the images on mobile
@@ -47,3 +37,9 @@
 <s> -Recreate experiment visual for ind.study page in sketch </s>
 
 <s> -Come up with consistent description box: structure & color(s) </s>
+
+<s> -Add explanations to chromaticAdaptation.html </s>
+
+<s> -Add short explanation to the hieroglyhs page </s>
+
+<s> -Write the content for 'independent study' page </s>
