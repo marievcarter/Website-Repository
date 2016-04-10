@@ -1,3 +1,48 @@
+html {
+    background: url(../img/backgrounds/twoTone.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+  width: 90%;
+  background-color: rgba(217, 217, 217,.60);
+}
+footer {
+  width: 90%;
+}
+.green { /* more like gray really */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    width:100%;
+    min-height: 400px;
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+p {
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    font-size: 20px;
+}
+figcaption {
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+row {
+  display: inline-block;
+}
+div.paragraph {
+  width: 75%;
+}
+.photos img {
+  float: left;
+  position: relative;
+}
+.photos figure {
+  display: inline-block;
+  width: 31%;
+}
 .card__front,
 .card__back {
   -webkit-backface-visibility: hidden;
@@ -7,8 +52,8 @@
 }
 .card__back {
     position: absolute;
-    padding-top: 30px;
-    padding-left: 20px;
+    padding-top: 11px;
+    padding-left: 4px;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
 }
