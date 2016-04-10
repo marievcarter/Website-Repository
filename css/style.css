@@ -87,8 +87,15 @@
   font-family: 'Poiret One', cursive;
   font-size: 60px;
 }
-.navbar li a, .navbar .navbar-brand {
+.navbar .navbar-brand {
   color: #E6E6E6 !important;
+  margin-top: 7px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.navbar li a {
+  color: #E6E6E6 !important;
+  background-color: #85144b !important;
   margin-top: 7px;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -133,7 +140,7 @@
   }
 }
 .thumbnail {
-  padding: 0 0 15px 0;
+  padding: 0;
   border: none;
   border-radius: 0;
 }
@@ -175,7 +182,7 @@
   background-color: #85144b;
 }
 div #sketchCarousel {
-  width: 65%;
+  width: 85%;
 }
 .item img {
   padding: 10 10 10 10;
