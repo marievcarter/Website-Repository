@@ -1,8 +1,5 @@
 ###TODO
 
--Change image carousel on volunteering page (for mobile) or make alternate format
-
--Second page for sketches since there's no need to maximize the images on mobile
 
 ###FINISHED
 
