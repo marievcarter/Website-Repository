@@ -4,22 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Marie Carter | Portfolio</title>
-<!--doesn't seem to work-->
-  <script type="text/javascript">
-      <!--
-      if (screen.width <= 699) {
-      document.location = "mobile.html";
-      }
-      //-->
-    </script>
+<!--
+    <script type="text/javascript">
+         hide javascript
+        if (screen.width <= 700) {
+        document.location = "mobile.html";
+        }
+      </script>-->
+  <!-- for favicons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">   
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/frontPage.css">
   <!--ICON-->
   <link rel="icon" type="image/png" href="img/thumbnails/smallShape.png">
 </head>
-<body id="portfolio" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body>
 <!--NAVBAR-->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -40,15 +44,99 @@
   </div>
 </nav>
 
-<div class="container-fluid cover">
-	<img class="img-responsive center-block" src="img/backgrounds/vertical.png">
+	<div class="cd-fixed-bg cd-bg-1">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6 leftBox">
+					<h1 class="center-block">
+						<br/>
+						Hi, I’m Marie.
+						<br/>
+						<br/>
+						I live in Madrid and I like to create things.
+					</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+ 
+<div class="cd-scrolling-bg-1">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-6">
+				<img class="center-block img-responsive" src="img/backgrounds/me.png">
+			</div>
+			<div class="col-sm-6">
+				<p class="center-block">
+				I recently graduated from the University of Pennsylvania, where I studied Cognitive Science. At the moment, I’m living in Madrid and working on a Fulbright grant.
+				<br/>
+				<br/>
+				Learning new things is one of my favorite pastimes, so I’ve been spending my time here practicing Spanish, volunteering, and teaching myself how to build websites! 
+				<br/>
+				<br/>
+				This site is a brief summary of my past (and present) projects.</p>
+			</div>
+		</div>
+	</div>
+</div> 
+
+<div class="cd-fixed-bg cd-bg-2">
+  <div class="container-fluid overlay">
+      <h1>A Few Projects:</h1>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="polygon">
+              <div class="inner">
+              <a href="extras/fashionGame/design.html">
+                  <img class="img-responsive one" src="img/thumbnails/clothes.png" alt="clothes">
+              </a>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="polygon">
+              <div class="inner">
+              <a href="html/boldIdea.html">
+                  <img class="img-responsive two" src="img/thumbnails/bulb.png" alt="lightbulb">
+              </a>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="polygon">
+              <div class="inner">
+              <a href="https://an-intellectual-outing.squarespace.com" target="_blank">
+                  <img class="img-responsive three" src="img/thumbnails/blog.png" alt="glyphs">
+              </a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <a href="html/projects.html"><div class="button center-block">More Projects</div></a>
+  </div>
 </div>
 
-<div class="container-fluid cover">
-  <img class="img-responsive center-block" src="img/backgrounds/bio.png">
-</div>
+<div class="cd-scrolling-bg-2">
+  <div class="container-fluid center-block">
+      <div class="rhomb center-block">
+          <!-- diamond shaped container -->
+        <div class="rotateText center-block text-center">
+          <p>I'd love to hear from you <br/> and can be reached via email at:</p>
+          <br/>
+          <p><span class="glyphicon glyphicon-envelope"></span> marievcarter@gmail.com</p>
+          <br/>
+          <p>Or visit me on GitHub:</p>
+          <p>
+            <i class="fa fa-github"></i> 
+            <a style="color:#000; text-decoration: none" href="https://github.com/mcarte4" target="_blank">mcarte4</a>
+        </p>
+        </div>
+      </div>
+  </div>
+</div> 
 
-<footer class="container-fluid text-center bg-gray">
+<footer class="container-fluid text-center">
     Marie Carter 2016 <br/> marievcarter@gmail.com
 </footer>
 
