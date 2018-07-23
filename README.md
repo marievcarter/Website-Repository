@@ -19,7 +19,3 @@ Website-Repository
 -Some experimentation without libraries
 
 -Geometric theme  
-
-####Jan 2016
-
-This repository is for the website marievcarter.com. 
